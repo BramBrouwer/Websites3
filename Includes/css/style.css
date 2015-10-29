@@ -1,0 +1,82 @@
+html {
+
+    background:  url("../img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 10px;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/*we use this to hide and show elements using add/remove class*/
+
+.hidden {
+    display: none;
+
+}
+
+
+.custombody{
+    background-color: transparent;
+}
+
+.bs_grey {
+    /*margin-top: 30px;*/
+    background-color: rgba(60, 63, 54, 0.7);
+    color: #FFF;
+    font-size: 20px;
+
+}
+
+.gamelistwrapper{
+    background-color: whitesmoke;
+    width: 250px;
+}
+
+
+.fieldwrapper{
+    width: 900px;
+    margin:  auto;
+    margin-top: 10px;
+}
+
+.dockwrapper{
+    /*width:200px;*/margin-top: 10px;
+}
+
+.infowrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.bs_enemytable td:hover{
+    background: url("../img/crosshair.png");
+    background-size: 100% 100%;
+}
+
+.bs_alliedtable{
+background-color: #ffffff;
+    border: 1px solid blue;
+
+}
+
+.bs_alliedtd{
+background-color: #ffffff;
+    border: 1px solid blue;
+    width: 40px;
+    height: 40px;
+}
+
+.bs_enemytable{
+    background-color: #ffffff;
+    border: 1px solid red;
+
+}
+
+.bs_enemytd{
+    background-color: #ffffff;
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+}
